@@ -1,1 +1,21 @@
+package Kegiatan3;
+
+
+public class Main {
+
+    
+    public static void main(String[] args) {
+        String orang1 = "Anton";
+        String orang2 = "Budi";
+        String orang3 = "Bagus";
+        
+        Class a = new Class ();
+        a.setname(orang1, orang2, orang3);
+        
+        System.out.println("Nama orang 1    :"+ a.nama2);
+        System.out.println("Nama orang 2    :"+ a.nama3);
+        System.out.println("Nama orang 3    :"+ a.getname());
+    }
+    
+}
 
